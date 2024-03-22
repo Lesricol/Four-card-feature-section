@@ -11,6 +11,7 @@ a {
 }
 header {
   padding: 32px;
+  
 }
 @media screen and (width >=1110px) {
   header {
@@ -25,8 +26,13 @@ body {
 }
 .main {
   position: relative;
-  width: 1110px;
   margin-inline: auto;
+}
+
+@media screen and (width >=540px){
+  .main{
+    width: 1110px;
+  }
 }
 
 .title {
